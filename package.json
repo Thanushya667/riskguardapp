@@ -1,0 +1,26 @@
+{
+  "name": "academic-risk-system",
+  "version": "1.0.0",
+  "description": "AI-Based Academic Risk Prediction and Intervention System (RiskGuard)",
+  "main": "frontend/src/main.jsx",
+  "scripts": {
+    "start": "python backend/app.py",
+    "dev": "python backend/app.py",
+    "train": "python backend/services/prediction/train_model.py"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.428.0",
+    "chart.js": "^4.4.4"
+  },
+  "keywords": [
+    "academic-risk",
+    "machine-learning",
+    "flask",
+    "react",
+    "education-saas"
+  ],
+  "author": "Google DeepMind Advanced Agentic Coding",
+  "license": "MIT"
+}
