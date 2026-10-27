@@ -12,18 +12,15 @@ from config import Config
 from database import db
 from flask_mail import Mail
 
-from routes import (
-    auth_bp,
-    student_bp,
-    prediction_bp,
-    alert_bp,
-    statistics_bp,
-    faculty_bp,
-    classroom_bp,
-    dataset_bp,
-    intervention_bp
-)
-
+from auth_routes import auth_bp
+from student_routes import student_bp
+from prediction_routes import prediction_bp
+from alert_routes import alert_bp
+from statistics_routes import statistics_bp
+from faculty_routes import faculty_bp
+from google_classroom_routes import classroom_bp
+from dataset_routes import dataset_bp
+from intervention_routes import intervention_bp
 
 # ---------------------------------------------------------
 # Load Environment Variables
